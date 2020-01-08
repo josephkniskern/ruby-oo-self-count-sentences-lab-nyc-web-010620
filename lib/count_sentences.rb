@@ -16,6 +16,6 @@ class String
 end
 
 def count_sentences
-  new_sent = self.sentence?.question?.exclamation?
+  new_sent = self.split(".")
   new_sent.count()
 end
