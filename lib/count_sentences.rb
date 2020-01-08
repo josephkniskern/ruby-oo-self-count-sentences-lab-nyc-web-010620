@@ -13,9 +13,9 @@ class String
   def exclamation?
     self.end_with?("!")
   end
+end
 
-  def count_sentences
-    new_sent = self.sentence?.question?.exclamation?
-    new_sent.count()
-  end
+def count_sentences
+  new_sent = self.sentence?.question?.exclamation?
+  new_sent.count()
 end
